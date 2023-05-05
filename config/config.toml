@@ -100,12 +100,12 @@ proxy_app = "tcp://127.0.0.1:26658"
   chunk_fetchers = "4"
   chunk_request_timeout = "10s"
   discovery_time = "15s"
-  enable = false
-  rpc_servers = ""
+  enable = true
+  rpc_servers = "https://tendermint.mineplex.io:443,https://tendermint.mineplex.io:443"
   temp_dir = ""
-  trust_hash = ""
-  trust_height = 0
-  trust_period = "168h0m0s"
+  trust_hash = "F65145496A9EE82D3BAD3CC47069AA5C213CA8B4568815168A5C29BF80E157C0"
+  trust_height = 500000
+  trust_period = "8760h0m0s"
 
 [storage]
   discard_abci_responses = false
