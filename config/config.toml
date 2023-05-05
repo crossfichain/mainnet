@@ -103,7 +103,7 @@ proxy_app = "tcp://127.0.0.1:26658"
   enable = true
   rpc_servers = "https://tendermint.mineplex.io:443,https://tendermint.mineplex.io:443"
   temp_dir = ""
-  trust_hash = "F65145496A9EE82D3BAD3CC47069AA5C213CA8B4568815168A5C29BF80E157C0"
+  trust_hash = "1BCE925F7305C174F279F0E6D11A9D30940F0E387683EFC00C0DF1DD8B431760"
   trust_height = 500000
   trust_period = "8760h0m0s"
 
