@@ -64,7 +64,7 @@ proxy_app = "tcp://127.0.0.1:26658"
   max_num_inbound_peers = 40
   max_num_outbound_peers = 10
   max_packet_msg_payload_size = 1024
-  persistent_peers = "2c8951227c667c8833e2930bc07ce1a9f0acbe28@seed-v2.mineplex.io:26656,e9fd5cca36b36d6646cfa65ff72b2f22abec4667@46.101.138.73:26656"  
+  persistent_peers = "71af8f90388904abd2b0991bcc4971f8e693f6b4@65.109.243.229:26656,6b90dd8399533bca9066030f6193dca37f1565e1@65.109.234.80:26656"
   persistent_peers_max_dial_period = "0s"
   pex = true
   private_peer_ids = ""
@@ -100,12 +100,12 @@ proxy_app = "tcp://127.0.0.1:26658"
   chunk_fetchers = "4"
   chunk_request_timeout = "30s"
   discovery_time = "15s"
-  enable = true
-  rpc_servers = "https://tendermint.mineplex.io:443,https://tendermint.mineplex.io:443"
+  enable = false
+  rpc_servers = "http://65.109.234.80:26657,http://65.109.234.80:26657"
   temp_dir = ""
-  trust_hash = "7EAD7AB56F3B19DEFAA3DCDB1E20A0541581D7695489A1133AEBA07F3A3AA060"
-  trust_height = 6500000
-  trust_period = "87600h0m0s"
+  trust_hash = "C78B2AA6DBBFD1619402D94DC51827A0F346A969CD2FB408753B5F156D1A353D"
+  trust_height = 1
+  trust_period = "8760h0m0s"
 
 [storage]
   discard_abci_responses = false
